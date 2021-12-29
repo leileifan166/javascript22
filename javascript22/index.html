@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="myjs.js"></script>
+</head>
+<body>
+    <script>
+        var totalscore = 620;
+        var englishscore = 120;
+        if(totalscore >= 600){
+            if(englishscore >= 130){
+                alert("该考生可以报考外国语大学");
+            }else{
+                alert("该考生可以报考重点本科，但不能报考外国语大学");
+            }
+        }else{
+            if(totalscore > 500){
+                alert("该考生可以报考普通本科");
+            }else{
+                alert("该考生只能报考专科");
+            }
+        }
+
+       var sex = "女";
+       var age = 58;
+       if(sex == "男"){
+           if(age >= 60){
+            alert("既に定年退職しました");
+           }else
+           alert("まだ退職していないです");
+       }else{
+           if(age >= 55){
+            alert("この女は既に退職しました");
+            }else{
+            alert("この女はまだ働いています");
+            }
+       }
+        
+
+    </script>
+</body>
+</html>
